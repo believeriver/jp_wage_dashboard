@@ -1,5 +1,3 @@
-import sys
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -10,8 +8,6 @@ import pathlib
 import warnings
 warnings.simplefilter('ignore')
 
-lib_dir = '/Users/tagawanobuyuki/Desktop/Study/udemy/02-python1/lesson/lesson_data_analyze/pdstreamlit/lib/python3.8/site-packages'
-sys.path.append(lib_dir)
 import japanize_matplotlib
 import plotly.express as px
 import streamlit as st
